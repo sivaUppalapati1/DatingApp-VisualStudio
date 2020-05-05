@@ -27,6 +27,7 @@ namespace DatingApp.Controllers
            // _mapper = mapper;
             _config = config;
             _repo = repo;
+
         }
         [HttpPost("register")]
         public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
